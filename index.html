@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <div class="logo">
+          <img
+            src="https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png"
+            alt="Netflix"
+          />
+        </div>
+        <div class="nav-buttons">
+          <button class="btn eng">English</button>
+          <button class="btn btn-red-sm">Sign In</button>
+        </div>
+      </nav>
+
+      <div class="box"></div>
+
+      <div class="hero">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <p class="subtitle">Starts at Rs 250. Cancel anytime.</p>
+        <p class="description">
+          Ready to watch? Enter your email to create or restart your membership
+        </p>
+
+        <div class="email-signup">
+          <input type="email" placeholder="Email address" />
+          <button class="btn-red">Get Started ></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+    <div class="default-ltr-cache-dulgtd">
+      <div class="curve-container">
+        <div class="default-ltr-cache-1f97ztc"></div>
+      </div>
+      <div class="default-ltr-cache-jtcpfi"></div>
+    </div>
+
+    <section class="content-section">
+      <div class="container">
+        <h2 class="section-title">Trending Now</h2>
+        <div class="trending-grid">
+          <div class="trending-item">
+            <img src="Assets/images/heist.webp" alt="The Royals" />
+
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >1</span
+            >
+          </div>
+          <div class="trending-item">
+            <img src="Assets/images/sqiud.webp" alt="Comedy Show" />
+
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >2</span
+            >
+          </div>
+          <div class="trending-item">
+            <img src="Assets/images/comedy.webp" alt="Thriller Series" />
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >3</span
+            >
+          </div>
+          <div class="trending-item">
+            <img src="Assets/images/royals.webp" alt="Action Movie" />
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >4</span
+            >
+          </div>
+          <div class="trending-item">
+            <img src="Assets/images/jaat.webp" alt="Drama Series" />
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >5</span
+            >
+          </div>
+          <div class="trending-item">
+            <img src="Assets/images/sikander.webp" alt="Mystery Show" />
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >6</span
+            >
+          </div>
+          <div class="trending-item">
+            <img src="Assets/images/rana.webp" alt="Crime Series" />
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >7</span
+            >
+          </div>
+          <div class="trending-item">
+            <img src="Assets/images/cid.webp" alt="Heist Drama" />
+            <span
+              aria-hidden="true"
+              data-content="1"
+              class="default-ltr-cache-1j6jwcf espbvdl1"
+              >8</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2 class="section-title">More Reasons to Join</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>Enjoy on your TV</h3>
+            <p>
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+            <div class="feature-icon">📺</div>
+          </div>
+          <div class="feature-card">
+            <h3>Download your shows to watch offline</h3>
+            <p>
+              Save your favorites easily and always have something to watch.
+            </p>
+            <div class="feature-icon">⬇️</div>
+          </div>
+          <div class="feature-card">
+            <h3>Watch everywhere</h3>
+            <p>
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+            <div class="feature-icon">🌐</div>
+          </div>
+          <div class="feature-card">
+            <h3>Create profiles for kids</h3>
+            <p>
+              Send kids on adventures with their favorite characters in a space
+              made just for them — free with your membership.
+            </p>
+            <div class="feature-icon">👨‍👩‍👧‍👦</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span>What is Netflix?</span>
+              <svg class="faq-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies and documentaries on thousands of
+              internet-connected devices.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span>How much does Netflix cost?</span>
+              <svg class="faq-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              Rs 250 to Rs 1,100 a month.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span>Where can I watch?</span>
+              <svg class="faq-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span>How do I cancel?</span>
+              <svg class="faq-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Netflix is flexible. There are no pesky contracts and no
+              commitments. You can easily cancel your account online in two
+              clicks.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span>What can I watch on Netflix?</span>
+              <svg class="faq-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Netflix has an extensive library of feature films, documentaries,
+              TV shows, anime, award-winning Netflix originals, and more.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">
+              <span>Is Netflix good for kids?</span>
+              <svg class="faq-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              The Netflix Kids experience is included in your membership to give
+              parents control while kids enjoy family-friendly TV shows and
+              movies in their own space.
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-signup">
+          <h3>
+            Ready to watch? Enter your email to create or restart your
+            membership
+          </h3>
+          <div class="email-signup">
+            <input type="email" placeholder="Email address" />
+            <button class="btn-red">Get Started ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-contact">
+          <a href="#">Questions? Contact us.</a>
+        </div>
+
+        <div class="footer-links">
+          <a href="#">FAQ</a>
+          <a href="#">Help Center</a>
+          <a href="#">Ways to Watch</a>
+          <a href="#">Media Center</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Cookie Preferences</a>
+          <a href="#">Corporate Information</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy</a>
+          <a href="#">Legal Notices</a>
+          <a href="#">Only on Netflix</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Speed Test</a>
+          <a href="#">Jobs</a>
+        </div>
+
+        <div class="footer-info">
+          <p>Netflix Pakistan</p>
+          <p>
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. <a href="#">Learn more.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function toggleFAQ(button) {
+        const answer = button.nextElementSibling;
+        const icon = button.querySelector(".faq-icon");
+        const isActive = answer.classList.contains("active");
+
+        // Close all other FAQs
+        document
+          .querySelectorAll(".faq-answer")
+          .forEach((ans) => ans.classList.remove("active"));
+        document
+          .querySelectorAll(".faq-icon")
+          .forEach((ic) => ic.classList.remove("rotated"));
+
+        // Toggle current FAQ
+        if (!isActive) {
+          answer.classList.add("active");
+          icon.classList.add("rotated");
+        }
+      }
+    </script>
+  </body>
+</html>
